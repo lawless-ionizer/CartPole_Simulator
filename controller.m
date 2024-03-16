@@ -13,6 +13,6 @@ function u = controller(X,params,X_desired)
 % You can use the parameters defined in the system_params.m funtion to
 % write the Force Function "u" being applied on the cart.
 
-u = 10*(X_desired(1) - X(1));
+u = 0;
 
 end
