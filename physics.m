@@ -6,7 +6,6 @@ M = params.M;
 S = sin(-X(3));
 C = cos(X(3));
 L = params.L;
-I = m*L*L/12;
 
 % Equations of Motion
 x_dot = X(2);
